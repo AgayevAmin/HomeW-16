@@ -1,0 +1,43 @@
+body {
+  background-color: blue;
+  color: aliceblue;
+  font-size: 150%;
+  margin: 0;
+}
+
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main .main-text {
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+@media (max-width: 768px) {
+  #main .main-text {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+}
+
+#main .main-text-logo {
+  margin-left: 50px;
+}
+
+#main .item {
+  margin: 0;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  #main .item {
+    display: none;
+  }
+}
+/*# sourceMappingURL=home.css.map */
